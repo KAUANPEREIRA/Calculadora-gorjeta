@@ -31,6 +31,7 @@ function App() {
      <p>Qual há porcentagem de gorjeta?</p>
      <input type={Number} value={porcetagem} onChange={porcentagemAlt}/><br></br>
        <div className="resutado">
+         
          <p>Total R$ : {valor}</p>
          <p>Gorjeta {porcetagem}%</p>
          <p>Total á Pagar {parseInt(valor) + parseInt((porcetagem/100)*valor)}</p>
